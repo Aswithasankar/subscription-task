@@ -1,0 +1,72 @@
+
+
+body {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.subscription-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.subscription-box h2 {
+    margin-top: 0;
+}
+
+.subscription-box p {
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 22px); 
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #218838;
+}
